@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Pumudi Lekamge</title>
+<link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><img src="imagesin/logo.png" alt="Pumudi Lekamge logo" class="brand-logo"><span class="brand-sub">CASE&nbsp;FILE</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="tabs">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow reveal">File № 0002 — Background</span>
+      <h1 class="reveal">About the analyst.</h1>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="wrap bio-grid">
+      <div class="sheet bio-sheet reveal">
+        <span class="tag">Statement</span>
+        <p class="bio-text">
+          I was drawn to cybersecurity because I enjoy understanding how systems work and finding
+          ways to make them more secure. I'm especially interested in ethical hacking, CTFs, and
+          penetration testing — spaces where I get to solve real challenges, identify vulnerabilities,
+          and keep sharpening my technical skills.
+        </p>
+        <p class="bio-text">
+          Right now I'm building my foundation in networking, web security, and cybersecurity
+          fundamentals, with the long-term goal of becoming a skilled cybersecurity professional.
+          I like that this field rewards curiosity — there's always another system to understand,
+          another edge case to test.
+        </p>
+      </div>
+
+      <div class="sheet id-sheet reveal">
+        <div class="id-photo-wrap">
+          <img src="imagesin/profilephoto.png" alt="Pumudi Lekamge" class="id-photo">
+        </div>
+        <span class="eyebrow" style="margin-bottom:16px;">Identification</span>
+        <dl class="file-rows">
+          <div><dt>Full name</dt><dd>Pumudi Lekamge</dd></div>
+          <div><dt>Institution</dt><dd>Kotelawala Defence University</dd></div>
+          <div><dt>Programme</dt><dd>BSc (Hons) Computer Science</dd></div>
+          <div><dt>Interests</dt><dd>Ethical hacking, CTFs, pentesting</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Timeline</span>
+        <h2>Education record.</h2>
+        <p>A chronological log — the path from O/Levels to a Computer Science degree at a defence university.</p>
+      </div>
+
+      <ol class="timeline" data-redact-group>
+        <li class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-body sheet">
+            <div class="tl-top">
+              <span class="tl-status status-done">Completed</span>
+              <span class="tl-date">G.C.E. Ordinary Level</span>
+            </div>
+            <h3>Gothami Balika Vidyalaya, Colombo</h3>
+            <p>Foundational secondary education — the starting entry in this file.</p>
+          </div>
+        </li>
+
+        <li class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-body sheet">
+            <div class="tl-top">
+              <span class="tl-status status-done">Completed</span>
+              <span class="tl-date">G.C.E. Advanced Level — Mathematics Stream</span>
+            </div>
+            <h3>Pannipitiya Dharmapala Vidyalaya</h3>
+            <p>Specialised in the Mathematics stream, laying the groundwork for a computing degree.</p>
+          </div>
+        </li>
+
+        <li class="tl-item reveal">
+          <div class="tl-dot pulse"></div>
+          <div class="tl-body sheet active-file">
+            <div class="tl-top">
+              <span class="tl-status status-active">In Progress</span>
+              <span class="tl-date">BSc (Hons) Computer Science</span>
+            </div>
+            <h3>General Sir John Kotelawala Defence University</h3>
+            <p>Undergraduate — currently building core CS foundations alongside a growing focus on cybersecurity and ethical hacking.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>© <span data-year></span> Pumudi Lekamge — Compiled, not confidential.</p>
+    <div class="footer-links">
+      <a href="https://github.com/pumudilekamge" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/pumudi-lekamge-1b66b5362/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:pumudilekamge66@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .page-hero{ padding:64px 0 12px; }
+  .page-hero h1{ font-size:clamp(30px,4.6vw,44px); margin-top:14px; }
+
+  .bio-grid{ display:grid; grid-template-columns:1.4fr 1fr; gap:24px; align-items:start; }
+  .bio-sheet{ padding:32px; }
+  .bio-text{ color:var(--text-muted); font-size:15.5px; margin-bottom:16px; }
+  .bio-text:last-child{ margin-bottom:0; }
+  .id-sheet{ padding:26px; }
+  .id-photo-wrap{
+    width:100%; aspect-ratio:1/1; border-radius:3px; overflow:hidden;
+    margin-bottom:20px; border:1px solid var(--line-soft); background:var(--ink-3);
+    filter:grayscale(0.25) contrast(1.05);
+  }
+  .id-photo{ width:100%; height:100%; object-fit:cover; display:block; }
+  .id-sheet .file-rows > div{ flex-direction:column; align-items:flex-start; gap:4px; }
+  .id-sheet .file-rows dd{ text-align:left; max-width:100%; font-weight:600; }
+
+  .timeline{ display:flex; flex-direction:column; gap:0; position:relative; margin-top:8px; }
+  .tl-item{ display:grid; grid-template-columns:24px 1fr; gap:20px; padding-bottom:34px; position:relative; }
+  .tl-item:not(:last-child)::before{
+    content:""; position:absolute; left:11px; top:24px; bottom:0; width:1px;
+    background:var(--line-soft);
+  }
+  .tl-dot{
+    width:24px; height:24px; border-radius:50%;
+    background:var(--ink-2); border:2px solid var(--line-soft);
+    display:flex; align-items:center; justify-content:center;
+  }
+  .tl-dot::after{ content:""; width:8px; height:8px; border-radius:50%; background:var(--text-muted); }
+  .tl-dot.pulse{ border-color:var(--accent); }
+  .tl-dot.pulse::after{ background:var(--accent); box-shadow:0 0 0 4px rgba(242,169,59,0.2); }
+  .tl-body{ padding:22px 24px; }
+  .tl-body.active-file{ border-color:var(--accent); }
+  .tl-top{ display:flex; align-items:center; gap:14px; margin-bottom:10px; flex-wrap:wrap; }
+  .tl-status{ font-family:var(--font-display); font-size:10px; letter-spacing:0.08em; text-transform:uppercase; padding:3px 8px; border-radius:2px; }
+  .status-done{ color:var(--text-muted); border:1px solid var(--line-soft); }
+  .status-active{ color:var(--redact); background:var(--accent);

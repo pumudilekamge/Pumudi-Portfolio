@@ -1,395 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Pumudi Lekamge | Portfolio</title>
-
-    <link rel="icon" type="image/png" href="imagein/logo.png">
-
-    <link rel="stylesheet" href="portfolio.css">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pumudi Lekamge — Computer Science &amp; Cybersecurity</title>
+<meta name="description" content="Portfolio of Pumudi Lekamge, Computer Science undergraduate at KDU focused on ethical hacking and penetration testing.">
+<link rel="stylesheet" href="portfolio.css">
 </head>
-
-
 <body>
 
-
-<header>
-
-<nav>
-
-    <h2 class="logo">
-        Pumudi<span>.</span>
-    </h2>
-
-
-    <ul>
-
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-
-    </ul>
-
-
-</nav>
-
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><img src="imagesin/logo.png" alt="Pumudi Lekamge logo" class="brand-logo"><span class="brand-sub">CASE&nbsp;FILE</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="tabs">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
 </header>
 
+<main>
 
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="stamp">Clearance: Undergraduate</div>
 
-<section id="home">
+        <h1 class="hero-title" data-redact-group>
+          Studying how systems break —<br>
+          so I can learn to make them <span class="redact" style="width:8ch;"><span class="redact-text">secure.</span>secure.</span>
+        </h1>
 
-<div class="about-container">
+        <p class="hero-lede">
+          I'm <strong>Pumudi Lekamge</strong>, a Computer Science undergraduate at General Sir John Kotelawala
+          Defence University, building toward a career in <span class="hl">ethical hacking</span> and
+          <span class="hl">penetration testing</span> — one CTF, one vulnerability, one project at a time.
+        </p>
 
-
-<div class="hero">
-
-
-<div class="hero-text">
-
-
-<h1>
-Hi, I'm <span>Pumudi Lekamge</span>
-</h1>
-
-
-<h2>
-Computer Science Undergraduate
-</h2>
-
-
-<p>
-I am a passionate Computer Science student in KDU who interested in
-software development, artificial intelligence, cybersecurity
-and solving real-world problems through technology.
-</p>
-
-
-
-<div class="buttons">
-
-<button class="btn">
-Download CV
-</button>
-
-
-<button class="btn-outline">
-Contact Me
-</button>
-
-
-</div>
-
-
-
-</div>
-
-
-
-<div class="profile-box">
-
-<img src="images/profile.jpg" alt="Profile Photo">
-
-</div>
-
-
-
-</div>
-
-
-</section>
-
-<section id="about">
-
-    <div class="about-container">
-
-        <div class="about-image">
-            <img src="profile.jpg" alt="Pumudi Lekamge">
+        <div class="hero-actions">
+          <a href="projects.html" class="btn btn-primary">View Case Files <span class="btn-arrow">→</span></a>
+          <a href="contact.html" class="btn btn-ghost">Get In Touch</a>
         </div>
+      </div>
 
-        <div class="about-content">
-
-            <h2>About <span>Me</span></h2>
-
-            <p>
-                Hello! I'm <strong>Pumudi Lekamge</strong>, a Computer Science undergraduate at General Sir John Kotelawala Defence University (KDU). I enjoy creating modern websites, solving programming problems, and learning new technologies.
-            </p>
-
-            <p>
-                I am passionate about Web Development, Artificial Intelligence, Cyber Security, and Software Engineering. My goal is to become a skilled software engineer while continuously improving my technical and problem-solving abilities.
-            </p>
-
-            <a href="#projects" class="btn">View Projects</a>
-
+      <div class="hero-card sheet reveal">
+        <div class="hero-card-head">
+          <span class="eyebrow">Subject File</span>
+          <span class="file-no">№ 0001</span>
         </div>
-
+        <div class="hero-photo-wrap">
+          <img src="imagesin/profilephoto.png" alt="Pumudi Lekamge" class="hero-photo">
+        </div>
+        <dl class="file-rows">
+          <div><dt>Name</dt><dd>Pumudi Lekamge</dd></div>
+          <div><dt>Institution</dt><dd>Kotelawala Defence University</dd></div>
+          <div><dt>Programme</dt><dd>BSc (Hons) Computer Science</dd></div>
+          <div><dt>Status</dt><dd>Undergraduate — Year 1</dd></div>
+          <div><dt>Focus Area</dt><dd>Ethical Hacking · Network Security · CTFs</dd></div>
+        </dl>
+        <div class="hero-card-foot">
+          <span class="dot"></span> Actively logging new skills
+        </div>
+      </div>
     </div>
+  </section>
 
-</section>
-
-<section id="skills">
-
-    <div class="skills-container">
-
-        <h2>My <span>Skills</span></h2>
-
-        <div class="skills-grid">
-
-            <div class="skill-card">
-                <h3>HTML</h3>
-                <p>Creating structured and semantic web pages.</p>
-            </div>
-
-
-            <div class="skill-card">
-                <h3>CSS</h3>
-                <p>Designing responsive and modern user interfaces.</p>
-            </div>
-
-
-            <div class="skill-card">
-                <h3>JavaScript</h3>
-                <p>Adding interactive features to websites.</p>
-            </div>
-
-
-            <div class="skill-card">
-                <h3>C++</h3>
-                <p>Programming fundamentals and problem solving.</p>
-            </div>
-
-
-            <div class="skill-card">
-                <h3>Java</h3>
-                <p>Object-oriented programming concepts.</p>
-            </div>
-
-
-            <div class="skill-card">
-                <h3>SQL</h3>
-                <p>Database management and queries.</p>
-            </div>
-
-        </div>
-
+  <section class="section-tight quickfacts">
+    <div class="wrap qf-grid reveal">
+      <div class="qf-item">
+        <span class="qf-num">03</span>
+        <span class="qf-label">Projects in progress</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-num">07+</span>
+        <span class="qf-label">Tools &amp; languages in active use</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-num">01</span>
+        <span class="qf-label">Mission: ethical, curious, thorough</span>
+      </div>
     </div>
+  </section>
 
-</section>
+  <section class="highlight">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Field of Interest</span>
+        <h2>Where curiosity meets defence.</h2>
+        <p>I enjoy understanding how systems actually work, then finding the gaps before someone
+          with worse intentions does. That's what pulled me toward ethical hacking, CTFs, and
+          penetration testing — and it's the thread running through everything below.</p>
+      </div>
 
-<section id="education">
-
-    <div class="education-container">
-
-        <h2>My <span>Education</span></h2>
-
-
-        <div class="education-box">
-
-
-            <div class="education-card">
-
-                <h3>BSc (Hons) in Computer Science</h3>
-
-                <h4>General Sir John Kotelawala Defence University (KDU)</h4>
-
-                <p>
-                    Currently pursuing my undergraduate degree in Computer Science.
-                    Studying programming, software development, databases, computer systems,
-                    and modern computing technologies.
-                </p>
-
-            </div>
-
-
-
-            <div class="education-card">
-
-                <h3>Advanced Level (A/L)</h3>
-
-                <h4>G.C.E Advanced Level</h4>
-
-                <p>
-                    Completed Advanced Level studies with a strong foundation in
-                    mathematics, logical thinking, and problem solving.
-                </p>
-
-            </div>
-
-
-
-            <div class="education-card">
-
-                <h3>Ordinary Level (O/L)</h3>
-
-                <h4>G.C.E Ordinary Level</h4>
-
-                <p>
-                    Completed Ordinary Level education with a foundation in
-                    science, mathematics, and information technology.
-                </p>
-
-            </div>
-
-
-        </div>
-
-
+      <div class="interest-grid">
+        <article class="sheet interest-card reveal">
+          <span class="tag">Interest — 01</span>
+          <h3>Ethical Hacking</h3>
+          <p>Learning offensive techniques the right way: to find weaknesses and report them, not exploit them.</p>
+        </article>
+        <article class="sheet interest-card reveal">
+          <span class="tag">Interest — 02</span>
+          <h3>CTFs &amp; Challenges</h3>
+          <p>Solving capture-the-flag style problems to sharpen problem-solving under pressure.</p>
+        </article>
+        <article class="sheet interest-card reveal">
+          <span class="tag">Interest — 03</span>
+          <h3>Network Security</h3>
+          <p>Understanding how data moves — and where it's most exposed along the way.</p>
+        </article>
+      </div>
     </div>
+  </section>
 
-</section>
-
-<section id="projects">
-
-    <div class="projects-container">
-
-        <h2>My <span>Projects</span></h2>
-
-
-        <div class="projects-grid">
-
-
-            <div class="project-card">
-
-                <h3>Personal Portfolio Website</h3>
-
-                <p>
-                    A responsive personal portfolio website developed using HTML,
-                    CSS, and JavaScript to showcase my skills, education, and projects.
-                </p>
-
-                <a href="#" class="project-btn">View Project</a>
-
-            </div>
-
-
-
-            <div class="project-card">
-
-                <h3>Smart Bottle Sorting System</h3>
-
-                <p>
-                    An intelligent waste sorting system using sensors and automation
-                    techniques to classify plastic, glass, metal, and paper materials.
-                </p>
-
-                <a href="#" class="project-btn">View Project</a>
-
-            </div>
-
-
-
-            <div class="project-card">
-
-                <h3>Urban Flood Risk Assessment Tool</h3>
-
-                <p>
-                    A software solution designed to analyze flood risks and provide
-                    information using a user-friendly interface.
-                </p>
-
-                <a href="#" class="project-btn">View Project</a>
-
-            </div>
-
-
-
-            <div class="project-card">
-
-                <h3>Number Theory Classification Tool</h3>
-
-                <p>
-                    A Java-based program that classifies numbers as Perfect,
-                    Abundant, or Deficient using proper divisors.
-                </p>
-
-                <a href="#" class="project-btn">View Project</a>
-
-            </div>
-
-
-        </div>
-
+  <section class="cta-band">
+    <div class="wrap cta-inner reveal">
+      <div>
+        <span class="eyebrow">Next Step</span>
+        <h2>Take a look at what I've been building.</h2>
+      </div>
+      <a href="projects.html" class="btn btn-primary">Open Case Files <span class="btn-arrow">→</span></a>
     </div>
+  </section>
 
-</section>
+</main>
 
-<section id="contact">
-
-    <div class="contact-container">
-
-        <h2>Contact <span>Me</span></h2>
-
-
-        <div class="contact-box">
-
-
-            <div class="contact-info">
-
-                <h3>Let's Connect</h3>
-
-                <p>
-                    I'm always interested in learning new technologies,
-                    working on projects, and connecting with other developers.
-                </p>
-
-
-                <p>
-                    📧 Email: your-email@example.com
-                </p>
-
-
-                <p>
-                    📍 Location: Sri Lanka
-                </p>
-
-
-            </div>
-
-
-
-            <form class="contact-form">
-
-                <input type="text" placeholder="Your Name">
-
-                <input type="email" placeholder="Your Email">
-
-                <textarea placeholder="Your Message"></textarea>
-
-                <button class="btn">
-                    Send Message
-                </button>
-
-            </form>
-
-
-        </div>
-
-
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>© <span data-year></span> Pumudi Lekamge — Compiled, not confidential.</p>
+    <div class="footer-links">
+      <a href="https://github.com/pumudilekamge" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/pumudi-lekamge-1b66b5362/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:pumudilekamge66@gmail.com">Email</a>
     </div>
-
-</section>
-
-
-
-<footer>
-
-    <p>
-        © 2026 Pumudi Lekamge | All Rights Reserved
-    </p>
-
+  </div>
 </footer>
 
+<style>
+  .hero{ padding-top:72px; padding-bottom:60px; }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.15fr 0.85fr;
+    gap:56px;
+    align-items:center;
+  }
+  .hero-title{
+    font-size:clamp(30px,4.4vw,50px);
+    line-height:1.14;
+    color:var(--text);
+    margin-top:20px;
+  }
+  .hero-title .redact{ font-weight:800; }
+  .hl{ color:var(--accent); }
+  .hero-lede{
+    margin-top:24px;
+    max-width:52ch;
+    color:var(--text-muted);
+    font-size:16.5px;
+  }
+  .hero-actions{ display:flex; gap:14px; margin-top:34px; flex-wrap:wrap; }
 
-<script src="script.js"></script>
-
-
-</body>
-</html>
+  .hero-card{ padding:26px; }
+  .hero-card-head{ display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; }
+  .file-no{ font-family:var(--font-display); font-size:11px; color:var(--text-muted); letter-spacing:0.08em; }
+  .hero-photo-wrap{
+    width:100%; aspect-ratio:16/10; border-radius:3px; overflow:hidden;
+    margin-bottom:20px; border:1px solid var(--line-soft); background:var(--ink-3);
+    filter:grayscale(0.25) contrast(1.05);
+  }
+  .hero-photo{ width:100%; height:100%; object-fit:cover; display:block; }
+  .file-rows{ display:flex; flex-direction:column; gap:14px; }
+  .file-rows > div{ display:flex; justify-content:space-between; gap:12px; border-bottom:1px dashed var(--line-soft); padding-bottom:12px; }
+  .file-rows dt{ font-family:var(--font-display); font-size:11px; text-transform:uppercase; letter-spacing:0.07em; color:var(--text-muted); }
+  .file-rows dd{ margin:0; font-size:13.5px; text-align:right; max-width:60%; }
+  .hero-card-foot{
+    margin-top:20px; padding-top:16px; border-top:1px solid var(--line-soft);
+    font-family:var(--font-display); font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:var(--accent-2);
+    display:flex; align-items:center;
